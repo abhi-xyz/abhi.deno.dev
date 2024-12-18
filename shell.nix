@@ -7,7 +7,7 @@ with pkgs; mkShell {
     openssl
     pkg-config
     llvmPackages.bintools
-    unstable.trunk
+    # unstable.trunk
     unstable.deno
     unstable.neovim
     unstable.rustup
